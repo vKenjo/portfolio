@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8c25b395.css",
+    "main.js": "/portfolio/static/js/main.b03d95a6.js",
+    "static/media/about.jpg": "/portfolio/static/media/about.136565307fbe9314da6a.jpg",
+    "static/media/CV_Viray.pdf": "/portfolio/static/media/CV_Viray.60ef6499d194588d5d6c.pdf",
+    "static/media/testimonial3.png": "/portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/testimonial2.png": "/portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
+    "static/media/testimonial1.png": "/portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "index.html": "/portfolio/index.html",
+    "main.8c25b395.css.map": "/portfolio/static/css/main.8c25b395.css.map",
+    "main.b03d95a6.js.map": "/portfolio/static/js/main.b03d95a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c25b395.css",
+    "static/js/main.b03d95a6.js"
+  ]
+}
