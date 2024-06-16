@@ -56,7 +56,7 @@ const Data = () => {
             </h1>
            <h3 className='home_subtitle'>Computer Science Student</h3> 
            <p className='home_description'>Hi! I am Josh Kenn Viray, 
-            a third yeard computer science student specializing in 
+            a third year computer science student specializing in 
             Data Science from the University of Santo Tomas. Nice to meet you!</p>
            <a href='#contact' className='button button--flex'>
             Say Hello!
