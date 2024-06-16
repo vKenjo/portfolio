@@ -1,0 +1,100 @@
+.skills_container {
+    grid-template-columns: repeat(2, 0.8fr);
+    column-gap: 3rem;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.skills_content{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+}
+
+.skills_title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    text-align: center;
+    margin-bottom: var(--mb-1-5);
+}
+
+.skills_box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills_group {
+    width: 45%; /* Adjust the width as needed to fit your design */
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.skills_data{
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.skills .bx-badge-check{
+    font-size: 1rem;
+    color: var(--title-color);
+}
+
+.skills_name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+}
+
+.skills_level{
+    font-size: var(--tiny-font);
+}
+
+/* Breakpoints */
+/* Large Devices */
+@media screen and (max-width: 992px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills_container{
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+        overflow: hidden;
+        padding-right: 1rem;
+        align-items: center;
+    }
+  }
+  
+/* Medium Devices */
+@media screen and (max-width: 576px) {
+    .skills_container {
+        grid-template-columns: 1fr;
+        padding-left: 2rem;
+        padding-right: 2rem; /* Add padding to the right as well */
+    }
+
+    .skills_content {
+        padding: 1.5rem;
+    }
+}
+
+/* Small Devices */
+@media screen and (max-width: 350px) {
+    .skills_container {
+        padding-left: 2rem; /* Add padding to the left */
+        padding-right: 2rem; /* Add padding to the right */
+    }
+
+    .skills_box {
+        column-gap: 1.25rem;
+    }
+
+    .skills_name {
+        font-size: var(--small-font-size);
+    }
+}
