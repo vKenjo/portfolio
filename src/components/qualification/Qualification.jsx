@@ -51,10 +51,14 @@ const Qualification = () => {
           >
             <div className='qualification_data'>
               <div>
-                <h3 className='qualification_title'>Web Designer</h3>
-                <span className='qualification_subtitle'>Espana, Manila - University of Santo Tomas</span>
+                <h3 className='qualification_title'>BS Computer Science specializing in Data Science</h3>
+                <span className='qualification_subtitle'>University of Santo Tomas</span>
+                <span className='qualification_subtitle'>
+                {'\u2B24'} FEU Tech ACM Codequest - 2nd Place and Best Poster Recipient
+
+                </span>
                 <div className='qualification_calendar'>
-                  <i className='uil uil-calendar-alt'></i> 2021 - Present
+                  <i className='uil uil-calendar-alt'></i> Aug 2022 - Present
                 </div>
               </div>
 
@@ -73,20 +77,28 @@ const Qualification = () => {
                 <span className='qualification_line'></span>
               </div>
               <div>
-                <h3 className='qualification_title'>Auditor</h3>
-                <span className='qualification_subtitle'>Espana, Manila - University of Santo Tomas</span>
+                <h3 className='qualification_title'>Senior High School</h3>
+                <span className='qualification_subtitle'>University of Santo Tomas<br></br>- Graduated with Honors</span>
                 <div className='qualification_calendar'>
-                  <i className='uil uil-calendar-alt'></i> 2021 - Present
+                  <i className='uil uil-calendar-alt'></i> Aug 2020 - June 2022
                 </div>
               </div>
             </div>
 
             <div className='qualification_data'>
               <div>
-                <h3 className='qualification_title'>Web Development</h3>
-                <span className='qualification_subtitle'>Espana, Manila - University of Santo Tomas</span>
+                <h3 className='qualification_title'>Junior High School</h3>
+                <span className='qualification_subtitle'>Olivarez College <br></br>- Graduated with High Academic Distinctions</span>
+                <span className='qualification_subtitle'>
+                {'\u2B24'} Hon. Cong. Eric L. Olivarez Award of Academic Excellence Recipient
+                <br></br>{'\u2B24'} Philippine Normal University (PNU) Regional Interschool Science
+                and Mathematics Olympiad (PRISMO) 2019 - Top 30
+                <br></br>{'\u2B24'} PSAP-ALAM Science Investigatory Project 1st Runner-Up
+                <br></br>{'\u2B24'} PSAP-ALAM Best Presentor
+
+                </span>
                 <div className='qualification_calendar'>
-                  <i className='uil uil-calendar-alt'></i> 2021 - Present
+                  <i className='uil uil-calendar-alt'></i> June 2018 - May 2020
                 </div>
               </div>
 
@@ -105,13 +117,15 @@ const Qualification = () => {
                 <span className='qualification_line'></span>
               </div>
               <div>
-                <h3 className='qualification_title'>UX Expert</h3>
-                <span className='qualification_subtitle'>Espana, Manila - University of Santo Tomas</span>
+                <h3 className='qualification_title'>Junior High School</h3>
+                <span className='qualification_subtitle'>Olivarez College</span>
+                <span className='qualification_subtitle'>{'\u2B24'} MathScore Competition - Bronze Medalist</span>
                 <div className='qualification_calendar'>
-                  <i className='uil uil-calendar-alt'></i> 2021 - Present
+                  <i className='uil uil-calendar-alt'></i> Aug 2020 - June 2022
                 </div>
               </div>
             </div>
+
           </div>
 
           <div
@@ -123,10 +137,10 @@ const Qualification = () => {
           >
             <div className='qualification_data'>
               <div>
-                <h3 className='qualification_title'>Product Designer</h3>
-                <span className='qualification_subtitle'>Espana, Manila - University of Santo Tomas</span>
+                <h3 className='qualification_title'>Data Management Intern</h3>
+                <span className='qualification_subtitle'>realme - Taguig, Philippines</span>
                 <div className='qualification_calendar'>
-                  <i className='uil uil-calendar-alt'></i> 2021 - Present
+                  <i className='uil uil-calendar-alt'></i> June 2024 - Present
                 </div>
               </div>
 
@@ -145,28 +159,12 @@ const Qualification = () => {
                 <span className='qualification_line'></span>
               </div>
               <div>
-                <h3 className='qualification_title'>UX Designer</h3>
-                <span className='qualification_subtitle'>Espana, Manila - University of Santo Tomas</span>
+                <h3 className='qualification_title'>Web Development Intern</h3>
+                <span className='qualification_subtitle'>Perfumity LLC - New Jersey, USA</span>
                 <div className='qualification_calendar'>
-                  <i className='uil uil-calendar-alt'></i> 2021 - Present
+                  <i className='uil uil-calendar-alt'></i> Dec 2023 - Mar 2024
                 </div>
               </div>
-            </div>
-
-            <div className='qualification_data'>
-              <div>
-                <h3 className='qualification_title'>Web Development</h3>
-                <span className='qualification_subtitle'>Espana, Manila - University of Santo Tomas</span>
-                <div className='qualification_calendar'>
-                  <i className='uil uil-calendar-alt'></i> 2021 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className='qualification_rounder'></span>
-                <span className='qualification_line'></span>
-              </div>
-
             </div>
           </div>
         </div>

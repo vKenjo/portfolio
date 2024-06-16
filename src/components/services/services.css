@@ -154,12 +154,12 @@
   }
   
   /* Small Devices */
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 370px) {
     .services_container{
-        grid-template-columns: max-content;
+        grid-template-columns: 1fr;
     }
 
-    .servvices_content{
+    .services_content{
         padding-right: 5rem;
     }
   }

@@ -14,7 +14,13 @@ export const About = () => {
                 <img src={AboutImg} alt="" className='about_img' />
                 <div className='about_data'>
                     <Info />
-                    <p className='about_description'>Your description here</p>
+                    <p className='about_description'>
+                    A dedicated third-year computer science student focusing on events 
+                    production and secretarial tasks, with comprehensive expertise in 
+                    front-end, back-end web design, data analytics, and data mangement roles. 
+                    Demonstrates outstanding time management and leadership skills 
+                    and adaptability in handling various roles, responsibilities, and projects.
+                    </p>
                     <a download="CV_Viray, Josh Kenn A" href={CV} className='button button--flex'>
                         Download CV
                         <svg className="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

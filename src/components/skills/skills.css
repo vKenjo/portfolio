@@ -84,17 +84,17 @@
 }
 
 /* Small Devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 370px) {
     .skills_container {
         padding-left: 2rem; /* Add padding to the left */
-        padding-right: 2rem; /* Add padding to the right */
+        padding-right: 0;
     }
 
     .skills_box {
-        column-gap: 1.25rem;
+        column-gap: 1rem;
     }
 
     .skills_name {
-        font-size: var(--small-font-size);
+        font-size: var(--smaller-font-size);
     }
 }

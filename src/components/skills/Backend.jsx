@@ -50,7 +50,7 @@ const Backend = () => {
 
                         <div>
                             <h3 className='skills_name'>Firebase</h3>
-                            <span className='skills_level'>Intermediate</span>
+                            <span className='skills_level'>basic</span>
                         </div>
                     </div>
 
