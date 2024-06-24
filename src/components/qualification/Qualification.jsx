@@ -78,7 +78,7 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className='qualification_title'>Senior High School</h3>
-                <span className='qualification_subtitle'>University of Santo Tomas<br></br>- Graduated with Honors</span>
+                <span className='qualification_subtitle'>University of Santo Tomas<br></br>Graduated with Honors</span>
                 <div className='qualification_calendar'>
                   <i className='uil uil-calendar-alt'></i> Aug 2020 - June 2022
                 </div>

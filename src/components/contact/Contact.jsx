@@ -32,7 +32,7 @@ const Contact = () => {
                             <i className='bx bx-mail-send contact_card-icon'></i>
 
                             <h3 className='contact_card-title'>Email</h3>
-                            <span className='contact_card-data'>user@gmail.com</span>
+                            <span className='contact_card-data'>joshkennviray@gmail.com</span>
 
                             <a href='mailto:joshkennviray@gmail.com' className='contact_button'>Write me
                                 <i className='bx bx-right-arrow-alt contact_button-icon'></i>
@@ -43,7 +43,7 @@ const Contact = () => {
                             <i className='bx bxl-telegram contact_card-icon'></i>
 
                             <h3 className='contact_card-title'>Telegram</h3>
-                            <span className='contact_card-data'>@username</span>
+                            <span className='contact_card-data'>@vkenjo</span>
 
                             <a href='https://t.me/vkenjo' className='contact_button'>Write me
                                 <i className='bx bx-right-arrow-alt contact_button-icon'></i>
@@ -54,7 +54,7 @@ const Contact = () => {
                             <i className='bx bxl-messenger contact_card-icon'></i>
 
                             <h3 className='contact_card-title'>Messenger</h3>
-                            <span className='contact_card-data'>user.fb123</span>
+                            <span className='contact_card-data'>www.facebook.com/vkenjooo/</span>
 
                             <a href='https://www.facebook.com/vkenjooo/' className='contact_button'>Write me
                                 <i className='bx bx-right-arrow-alt contact_button-icon'></i>
