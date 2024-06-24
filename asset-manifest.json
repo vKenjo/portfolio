@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f269b38f.css",
-    "main.js": "/portfolio/static/js/main.f8a71fa8.js",
+    "main.js": "/portfolio/static/js/main.b6f2f14d.js",
     "static/media/about.jpg": "/portfolio/static/media/about.136565307fbe9314da6a.jpg",
-    "static/media/CV_Viray.pdf": "/portfolio/static/media/CV_Viray.60ef6499d194588d5d6c.pdf",
+    "static/media/CV_Viray.pdf": "/portfolio/static/media/CV_Viray.df5ddbc8b9347f45616d.pdf",
     "static/media/testimonial3.png": "/portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
     "static/media/testimonial2.png": "/portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/testimonial1.png": "/portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/portfolio/index.html",
     "main.f269b38f.css.map": "/portfolio/static/css/main.f269b38f.css.map",
-    "main.f8a71fa8.js.map": "/portfolio/static/js/main.f8a71fa8.js.map"
+    "main.b6f2f14d.js.map": "/portfolio/static/js/main.b6f2f14d.js.map"
   },
   "entrypoints": [
     "static/css/main.f269b38f.css",
-    "static/js/main.f8a71fa8.js"
+    "static/js/main.b6f2f14d.js"
   ]
 }
