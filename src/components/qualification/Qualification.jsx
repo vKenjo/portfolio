@@ -143,7 +143,7 @@ const Qualification = () => {
                 <h3 className='qualification_title'>Data Management Intern</h3>
                 <span className='qualification_subtitle'>realme - Taguig, Philippines</span>
                 <div className='qualification_calendar'>
-                  <i className='uil uil-calendar-alt'></i> June 2024 - Present
+                  <i className='uil uil-calendar-alt'></i> June 2024 - August 2024
                 </div>
               </div>
 
