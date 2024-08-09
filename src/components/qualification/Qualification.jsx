@@ -54,7 +54,10 @@ const Qualification = () => {
                 <h3 className='qualification_title'>BS Computer Science specializing in Data Science</h3>
                 <span className='qualification_subtitle'>University of Santo Tomas</span>
                 <span className='qualification_subtitle'>
-                {'\u2B24'} FEU Tech ACM Codequest - 2nd Place and Best Poster Recipient
+                {'\u2B24'} DLUS Hackercup 2024 - 2nd Place
+                {'\u2B24'} FEU Tech ACM Codequest 2024 - 2nd Place and Best Poster Recipient<br></br>
+                {'\u2B24'} ASES Manila ASES Bootcamp for Career Design 2024 - 2nd Runner Up <br></br>
+                {'\u2B24'} MAPUA NextGen IS StartUp Challenge 2024 - Top 4 Finalist <br></br>
 
                 </span>
                 <div className='qualification_calendar'>
