@@ -9,7 +9,7 @@ export const About = () => {
     return (
         <section class='about section' id='about'>
             <h2 class='section_title'>About Me</h2>
-            <span class='section_subtitle'>My introduction</span>
+            <span class='section_subtitle'>Ex. RealMe | iThink and Hooked Unitour Champion | BPI DATAWave 1st Runner-Up</span>
             <div class='about_container container grid'>
                 <img src={AboutImg} alt="" className='about_img' />
                 <div className='about_data'>
