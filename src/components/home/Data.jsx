@@ -7,10 +7,9 @@ const Data = () => {
                 {/*<svg
                     width="36"
                     height="36"
-                    viewBox="0 0 48 48"
-                    fill="none"
+                    viewBox="0 0 48 48"                    fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="home__hand"
+                    className="home__hand"
                 >
                     <path
                         d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z"
@@ -58,10 +57,9 @@ const Data = () => {
            <p className='home_description'>Hi! I am Josh Kenn Viray, 
             a third year computer science student specializing in 
             Data Science from the University of Santo Tomas. Nice to meet you!</p>
-           <a href='#contact' className='button button--flex'>
-            Say Hello!
+           <a href='#contact' className='button button--flex'>            Say Hello!
             <svg
-                  class="button__icon"
+                  className="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"

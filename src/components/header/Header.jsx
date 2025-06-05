@@ -1,24 +1,41 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "./header.css";
+import logo from "../../assets/kenjo-logo.png";
 
 const Header = () => {
 
-  window.addEventListener('scroll', function () {
-    const header = document.querySelector('.header');
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector('.header');
+      if (header) {
+        if (window.scrollY >= 80) {
+          header.classList.add('scroll-header');
+        } else {
+          header.classList.remove('scroll-header');
+        }
+      }
+    };
 
-    if (this.scrollY >= 80) header.classList.add('scroll-header');
-    else header.classList.remove('scroll-header');
-  });
-
+    window.addEventListener('scroll', handleScroll);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   // Toggle state for the menu
   const [Toggle, setToggle] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
 
-  return (
-    <header className="header">
+  return (    <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav_logo">Kenjo</a>
+        <a href="index.html" className="nav_logo">
+          <img 
+            src={logo} 
+            alt="Kenjo Logo" 
+            className="nav_logo_img"
+          />
+        </a>
 
         <div className={Toggle ? 'nav_menu show_menu' : 'nav_menu'}>
           <ul className='nav_list grid'>

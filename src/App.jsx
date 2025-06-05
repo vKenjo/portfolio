@@ -6,7 +6,6 @@ import About from './components/about/About.jsx';
 import Skills from './components/skills/Skills.jsx';
 import Services from './components/services/Services.jsx';
 import Qualification from './components/qualification/Qualification.jsx';
-import Testimonials from './components/testimonials/Testimonials.jsx';
 import Contact from './components/contact/Contact.jsx';
 import Footer from './components/footer/Footer.jsx';
 import Scrollup from './components/scrollup/Scrollup.jsx';

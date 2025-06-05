@@ -3,21 +3,20 @@ import "./about.css";
 import AboutImg from "../../assets/about.jpg";
 import CV from "../../assets/CV_Viray.pdf";
 import Info from './Info';
-import Orgs from './Orgs';
 
 export const About = () => {
     return (
-        <section class='about section' id='about'>
-            <h2 class='section_title'>About Me</h2>
-            <span class='section_subtitle'>Ex. RealMe | iThink and Hooked Unitour Champion | BPI DATAWave 1st Runner-Up</span>
-            <div class='about_container container grid'>
+        <section className='about section' id='about'>
+            <h2 className='section_title'>About Me</h2>
+            <span className='section_subtitle'>Ex. RealMe | iThink and Hooked Unitour Champion | BPI DATAWave 1st Runner-Up</span>
+            <div className='about_container container grid'>
                 <img src={AboutImg} alt="" className='about_img' />
                 <div className='about_data'>
                     <Info />
                     <p className='about_description'>
-                    A dedicated third-year computer science student focusing on events 
+                    A dedicated incoming fourth-year computer science student focusing on events 
                     production and secretarial tasks, with comprehensive expertise in 
-                    front-end, back-end web design, data analytics, and data mangement roles. 
+                    fullstack development, data analytics, and data management roles. 
                     Demonstrates outstanding time management and leadership skills 
                     and adaptability in handling various roles, responsibilities, and projects.
                     </p>

@@ -1,0 +1,21 @@
+{
+  "short_name": "Kenjo Portfolio",
+  "name": "Josh Kenn Viray - Portfolio",
+  "description": "Portfolio website of Josh Kenn Viray",
+  "icons": [
+    {
+      "src": "kenjo-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "kenjo-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

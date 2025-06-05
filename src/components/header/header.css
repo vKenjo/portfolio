@@ -19,6 +19,16 @@
 .nav_toggle {
     color: var(--title-color);
     font-weight: var(--font-medium);
+    display: flex;
+    align-items: center;
+}
+
+.nav_logo_img {
+    height: 45px;
+    width: auto;
+    max-width: 150px;
+    object-fit: contain;
+    display: block;
 }
 
 .nav_list{
